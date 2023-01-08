@@ -4,11 +4,11 @@ const dotenv = require('dotenv');
 const morgan = require('morgan');
 const cors = require('cors');
 
+dotenv.config();
+
 const app = express();
 
 const post = process.env.POST || 3000;
-
-dotenv.config();
 
 app.use(cors());
 app.use(morgan('dev'));
