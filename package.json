@@ -1,0 +1,28 @@
+{
+  "name": "web_crawling",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/galguss/Web_crawling.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/galguss/Web_crawling/issues"
+  },
+  "homepage": "https://github.com/galguss/Web_crawling#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "morgan": "^1.10.0"
+  }
+}

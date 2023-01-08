@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    min-height: 100vh;
+    width: 100%;
+}
+
+#container{
+    width: 96%;
+    margin: auto;
+    text-align: center;
+}
+
+form{
+    margin-top: 20px;
+}
+
+form > button{
+    width: 80px;
+    height: 25px;
+    border-radius: 4px;
+    background-color: coral;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+form label{
+    font-size: 24px;
+}
+
+form label input{
+    width: 200px;
+    height: 20px;
+    border-radius: 4px;
+}
